@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة مادي لحلول التجارة الإلكترونية</title>
+    <meta name="description" content="منصة مادي - نظام ERP متكامل للتجارة الإلكترونية والدفع عند الاستلام في ليبيا">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./منصة مادي لحلول التجارة الإلكترونية_files/index-g6B72xwu.css">
+
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+
+        /* Custom Responsive Utilities */
+        .mobile-view {
+            display: block;
+        }
+
+        .desktop-view {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .mobile-view {
+                display: none !important;
+            }
+
+            .desktop-view {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <main class="min-h-screen">
+            <!-- Header -->
+            <header class="fixed top-0 right-0 left-0 z-50 glass-effect border-b border-border/50">
+                <div class="container mx-auto px-4">
+                    <div class="flex items-center justify-between h-16 md:h-20">
+                        <a href="#home" class="flex items-center gap-2">
+                            <img src="./images/logo.png" alt="منصة مادي" class="w-10 h-10 rounded-lg object-contain">
+                            <span class="font-bold text-lg md:text-xl text-foreground hidden sm:block">منصة مادي</span>
+                        </a>
+                        <nav class="hidden lg:flex items-center gap-8">
+                            <a href="#home"
+                                class="text-muted-foreground hover:text-primary transition-colors font-medium">الرئيسية</a>
+                            <a href="#features"
+                                class="text-muted-foreground hover:text-primary transition-colors font-medium">المميزات</a>
+                            <a href="#how-it-works"
+                                class="text-muted-foreground hover:text-primary transition-colors font-medium">كيف
+                                يعمل</a>
+                            <a href="#pricing"
+                                class="text-muted-foreground hover:text-primary transition-colors font-medium">الأسعار</a>
+                            <a href="#faq"
+                                class="text-muted-foreground hover:text-primary transition-colors font-medium">الأسئلة
+                                الشائعة</a>
+                            <a href="#contact"
+                                class="text-muted-foreground hover:text-primary transition-colors font-medium">تواصل
+                                معنا</a>
+                        </nav>
+                        <div class="hidden md:flex items-center gap-4">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWD7VP6qe3se1Vpnt7OgrTc_JjKup3BGnnEVb7Zi1l0C6LvA/viewform?usp=dialog"
+                                target="_blank"
+                                class="gradient-primary text-primary-foreground hover:opacity-90 transition-opacity h-10 px-4 py-2 rounded-md font-medium inline-flex items-center">ابدأ
+                                تجربتك المجانية</a>
+                        </div>
+                        <button class="lg:hidden p-2" aria-label="Toggle menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="4" x2="20" y1="12" y2="12"></line>
+                                <line x1="4" x2="20" y1="6" y2="6"></line>
+                                <line x1="4" x2="20" y1="18" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Hero Section -->
+            <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent pointer-events-none">
+                </div>
+                <div
+                    class="absolute top-1/4 -right-1/4 w-1/2 h-1/2 bg-primary/10 rounded-full blur-3xl pointer-events-none">
+                </div>
+                <div
+                    class="absolute bottom-1/4 -left-1/4 w-1/2 h-1/2 bg-accent/10 rounded-full blur-3xl pointer-events-none">
+                </div>
+                <div class="container mx-auto px-4 py-12 md:py-20">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div class="text-center lg:text-right space-y-6 animate-fade-in">
+                            <div
+                                class="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
+                                <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>تجربة مجانية لمدة 7
+                                أيام
+                            </div>
+                            <h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
+                                <span class="text-foreground">نظم تجارتك الإلكترونية</span><br>
+                                <span class="gradient-text">بذكاء وسهولة</span>
+                            </h1>
+                            <p class="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0">اربط جدول
+                                Google Sheets الخاص بك وحوّل بياناتك إلى نظام متكامل لإدارة الطلبات، تتبع الأرباح،
+                                وتحليل المخزون.</p>
+                            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWD7VP6qe3se1Vpnt7OgrTc_JjKup3BGnnEVb7Zi1l0C6LvA/viewform?usp=dialog"
+                                    target="_blank"
+                                    class="gradient-primary text-primary-foreground hover:opacity-90 transition-opacity text-lg px-8 py-4 rounded-md font-medium inline-flex items-center">ابدأ
+                                    7 أيام مجاناً ←</a>
+                                <button
+                                    class="border-2 border-input bg-background hover:bg-accent text-lg px-8 py-4 rounded-md font-medium">▶
+                                    شاهد الفيديو التوضيحي</button>
+                            </div>
+                            <div class="flex items-center gap-6 justify-center lg:justify-start pt-4">
+                                <div class="text-center">
+                                    <p class="text-2xl font-bold text-foreground">+100</p>
+                                    <p class="text-sm text-muted-foreground">تاجر نشط</p>
+                                </div>
+                                <div class="w-px h-12 bg-border"></div>
+                                <div class="text-center">
+                                    <p class="text-2xl font-bold text-foreground">+50,000</p>
+                                    <p class="text-sm text-muted-foreground">طلب تمت معالجته</p>
+                                </div>
+                                <div class="w-px h-12 bg-border"></div>
+                                <div class="text-center">
+                                    <p class="text-2xl font-bold text-foreground">98%</p>
+                                    <p class="text-sm text-muted-foreground">رضا العملاء</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative animate-fade-in-up">
+                            <div
+                                class="relative z-10 bg-card rounded-2xl shadow-2xl border border-border/50 overflow-hidden">
+                                <!-- Mobile Image (Phone) -->
+                                <div class="mobile-view max-w-[280px] mx-auto">
+                                    <div
+                                        class="aspect-[9/19] bg-gradient-to-br from-muted to-secondary rounded-[2.5rem] border-[8px] border-slate-900 overflow-hidden shadow-xl">
+                                        <img src="./images/IMG_4141.PNG" alt="تطبيق مادي"
+                                            class="w-full h-full object-cover">
+                                    </div>
+                                </div>
+
+                                <!-- Desktop Image (PC) -->
+                                <div class="desktop-view">
+                                    <div
+                                        class="aspect-video bg-gradient-to-br from-muted to-secondary flex items-center justify-center">
+                                        <img src="./images/pc-screenshot.png" alt="منصة مادي"
+                                            class="w-full h-full object-cover">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Features Section -->
+            <section id="features" class="py-20 md:py-32 relative">
+                <div class="container mx-auto px-4">
+                    <div class="text-center max-w-3xl mx-auto mb-16">
+                        <span class="inline-block text-primary font-semibold mb-4">المميزات</span>
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">كل ما تحتاجه لإدارة تجارتك</h2>
+                        <p class="text-lg text-muted-foreground">أدوات متكاملة مصممة خصيصاً لتجار التجارة الإلكترونية في
+                            ليبيا</p>
+                    </div>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                        <div
+                            class="group bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/30 hover:shadow-xl transition-all duration-300">
+                            <div
+                                class="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                📊</div>
+                            <h3 class="text-xl font-bold mb-3">ربط Google Sheets</h3>
+                            <p class="text-muted-foreground leading-relaxed">اربط جدولك مباشرة واستورد بياناتك بضغطة زر.
+                                تحديث تلقائي ومزامنة مستمرة.</p>
+                        </div>
+                        <div
+                            class="group bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/30 hover:shadow-xl transition-all duration-300">
+                            <div
+                                class="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                📦</div>
+                            <h3 class="text-xl font-bold mb-3">إدارة الطلبات</h3>
+                            <p class="text-muted-foreground leading-relaxed">تتبع طلباتك عبر 3 مراحل: غير مؤكد، قيد
+                                التسليم، تم التسليم.</p>
+                        </div>
+                        <div
+                            class="group bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/30 hover:shadow-xl transition-all duration-300">
+                            <div
+                                class="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                📈</div>
+                            <h3 class="text-xl font-bold mb-3">تحليل الأرباح</h3>
+                            <p class="text-muted-foreground leading-relaxed">تقارير مفصلة عن أرباحك ونسب التوصيل الناجح.
+                            </p>
+                        </div>
+                        <div
+                            class="group bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/30 hover:shadow-xl transition-all duration-300">
+                            <div
+                                class="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                📋</div>
+                            <h3 class="text-xl font-bold mb-3">تحليل المخزون</h3>
+                            <p class="text-muted-foreground leading-relaxed">تابع مخزونك في الوقت الفعلي. تنبيهات ذكية
+                                عند انخفاض الكميات.</p>
+                        </div>
+                        <div
+                            class="group bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/30 hover:shadow-xl transition-all duration-300">
+                            <div
+                                class="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                🧾</div>
+                            <h3 class="text-xl font-bold mb-3">فواتير آلية</h3>
+                            <p class="text-muted-foreground leading-relaxed">إنشاء فواتير احترافية تلقائياً لكل عميل.
+                            </p>
+                        </div>
+                        <div
+                            class="group bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/30 hover:shadow-xl transition-all duration-300">
+                            <div
+                                class="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                💬</div>
+                            <h3 class="text-xl font-bold mb-3">تواصل سريع</h3>
+                            <p class="text-muted-foreground leading-relaxed">أزرار اتصال وواتساب مدمجة للتواصل الفوري مع
+                                عملائك.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How It Works Section -->
+            <section id="how-it-works" class="py-20 md:py-32 bg-muted/30">
+                <div class="container mx-auto px-4">
+                    <div class="text-center max-w-3xl mx-auto mb-16">
+                        <span class="inline-block text-primary font-semibold mb-4">كيف يعمل</span>
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">3 خطوات بسيطة للبدء</h2>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-8 md:gap-12">
+                        <div class="text-center">
+                            <div
+                                class="w-24 h-24 mx-auto mb-6 rounded-2xl gradient-primary flex items-center justify-center shadow-lg shadow-primary/30">
+                                🔗</div>
+                            <span class="inline-block text-primary font-bold text-sm mb-2">01</span>
+                            <h3 class="text-xl font-bold mb-3">اربط جدولك</h3>
+                            <p class="text-muted-foreground">اربط جدول Google Sheets الخاص بك بضغطة واحدة.</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="w-24 h-24 mx-auto mb-6 rounded-2xl gradient-primary flex items-center justify-center shadow-lg shadow-primary/30">
+                                ⚙️</div>
+                            <span class="inline-block text-primary font-bold text-sm mb-2">02</span>
+                            <h3 class="text-xl font-bold mb-3">تنظيم تلقائي</h3>
+                            <p class="text-muted-foreground">يتم تنظيم طلباتك تلقائياً إلى 3 مراحل.</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="w-24 h-24 mx-auto mb-6 rounded-2xl gradient-primary flex items-center justify-center shadow-lg shadow-primary/30">
+                                🚀</div>
+                            <span class="inline-block text-primary font-bold text-sm mb-2">03</span>
+                            <h3 class="text-xl font-bold mb-3">تابع ونمو</h3>
+                            <p class="text-muted-foreground">تابع أداء تجارتك بتقارير مفصلة.</p>
+                        </div>
+                    </div>
+
+                    <div class="max-w-4xl mx-auto mt-16">
+                        <div class="bg-card rounded-2xl shadow-2xl border border-border/50 overflow-hidden">
+                            <div
+                                class="aspect-video bg-gradient-to-br from-muted to-secondary flex items-center justify-center">
+                                <img src="./images/pc-screenshot.png" alt="سير العمل"
+                                    class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- User Interface Section -->
+            <section class="py-20 md:py-32 relative overflow-hidden">
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent pointer-events-none">
+                </div>
+                <div class="container mx-auto px-4">
+                    <div class="text-center max-w-3xl mx-auto mb-16">
+                        <span class="inline-block text-primary font-semibold mb-4">واجهة المستخدم</span>
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">تصميم بسيط وسهل الاستخدام</h2>
+                        <p class="text-lg text-muted-foreground">واجهة عربية بالكامل مصممة لتجربة مستخدم سلسة على الويب
+                            والموبايل</p>
+                    </div>
+                    <div class="grid lg:grid-cols-2 gap-8 items-center">
+                        <div class="relative">
+                            <div class="bg-card rounded-2xl shadow-2xl border border-border/50 overflow-hidden">
+                                <div class="bg-muted px-4 py-3 flex items-center gap-2 border-b border-border/50">
+                                    <div class="flex gap-1.5">
+                                        <div class="w-3 h-3 rounded-full bg-destructive/60"></div>
+                                        <div class="w-3 h-3 rounded-full bg-yellow-500/60"></div>
+                                        <div class="w-3 h-3 rounded-full bg-green-500/60"></div>
+                                    </div>
+                                    <div class="flex-1 mx-4">
+                                        <div
+                                            class="bg-background rounded-md px-3 py-1 text-xs text-muted-foreground text-center">
+                                            madi-platform.ly</div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="aspect-[16/10] bg-gradient-to-br from-muted to-secondary flex items-center justify-center">
+                                    <img src="./images/pc-screenshot.png" alt="لوحة التحكم"
+                                        class="w-full h-full object-cover">
+                                </div>
+                            </div>
+                            <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/10 rounded-full blur-2xl">
+                            </div>
+                        </div>
+                        <div class="flex gap-4 justify-center lg:justify-start">
+                            <div class="relative animate-float" style="animation-delay: 0s;">
+                                <div
+                                    class="w-48 md:w-56 bg-card rounded-[2rem] shadow-2xl border-4 border-foreground/10 overflow-hidden">
+                                    <div
+                                        class="aspect-[9/19] bg-gradient-to-br from-muted to-secondary flex items-center justify-center">
+                                        <div class="text-center p-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-smartphone w-10 h-10 mx-auto mb-3 text-muted-foreground/50">
+                                                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                                <path d="M12 18h.01"></path>
+                                            </svg>
+                                            <p class="text-muted-foreground text-sm">تطبيق الموبايل</p>
+                                            <p class="text-muted-foreground/60 text-xs mt-1">لقطة 1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative animate-float mt-8" style="animation-delay: 0.5s;">
+                                <div
+                                    class="w-48 md:w-56 bg-card rounded-[2rem] shadow-2xl border-4 border-foreground/10 overflow-hidden">
+                                    <div
+                                        class="aspect-[9/19] bg-gradient-to-br from-muted to-secondary flex items-center justify-center">
+                                        <div class="text-center p-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-smartphone w-10 h-10 mx-auto mb-3 text-muted-foreground/50">
+                                                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                                <path d="M12 18h.01"></path>
+                                            </svg>
+                                            <p class="text-muted-foreground text-sm">تطبيق الموبايل</p>
+                                            <p class="text-muted-foreground/60 text-xs mt-1">لقطة 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute -bottom-4 -left-4 w-24 h-24 bg-accent/10 rounded-full blur-xl">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pricing Section -->
+            <section id="pricing" class="py-20 md:py-32 bg-muted/30">
+                <div class="container mx-auto px-4">
+                    <div class="text-center max-w-3xl mx-auto mb-16">
+                        <span class="inline-block text-primary font-semibold mb-4">الأسعار</span>
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">باقات تناسب احتياجاتك</h2>
+                        <p class="text-lg text-muted-foreground">تجربة مجانية لمدة 7 أيام. بدون بطاقة ائتمان.</p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+                        <div
+                            class="bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:shadow-lg transition-all">
+                            <div class="text-center mb-8">
+                                <h3 class="text-xl font-bold mb-2">أساسي</h3>
+                                <p class="text-muted-foreground text-sm mb-4">مثالي للتجار المبتدئين</p>
+                                <div class="flex items-baseline justify-center gap-1">
+                                    <span class="text-4xl md:text-5xl font-bold">49</span>
+                                    <span class="text-muted-foreground">د.ل / شهرياً</span>
+                                </div>
+                            </div>
+                            <ul class="space-y-4 mb-8">
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">ربط جدول Google Sheets واحد</span></li>
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">إدارة حتى 500 طلب شهرياً</span></li>
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">تقارير أساسية</span></li>
+                            </ul>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWD7VP6qe3se1Vpnt7OgrTc_JjKup3BGnnEVb7Zi1l0C6LvA/viewform?usp=dialog"
+                                target="_blank"
+                                class="w-full border border-input bg-background hover:bg-accent h-11 rounded-md px-8 font-medium flex items-center justify-center">ابدأ
+                                تجربتك المجانية</a>
+                        </div>
+                        <div
+                            class="relative bg-card rounded-2xl p-6 md:p-8 border border-primary shadow-xl scale-105 hover:shadow-lg transition-all">
+                            <div class="absolute -top-4 right-1/2 translate-x-1/2">
+                                <span
+                                    class="gradient-primary text-primary-foreground text-sm font-semibold px-4 py-1 rounded-full">الأكثر
+                                    شعبية</span>
+                            </div>
+                            <div class="text-center mb-8">
+                                <h3 class="text-xl font-bold mb-2">احترافي</h3>
+                                <p class="text-muted-foreground text-sm mb-4">الأكثر شعبية للتجار النشطين</p>
+                                <div class="flex items-baseline justify-center gap-1">
+                                    <span class="text-4xl md:text-5xl font-bold">99</span>
+                                    <span class="text-muted-foreground">د.ل / شهرياً</span>
+                                </div>
+                            </div>
+                            <ul class="space-y-4 mb-8">
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">طلبات غير محدودة</span></li>
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">تحليلات متقدمة</span></li>
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">فواتير تلقائية</span></li>
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">دعم أولوية</span></li>
+                            </ul>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWD7VP6qe3se1Vpnt7OgrTc_JjKup3BGnnEVb7Zi1l0C6LvA/viewform?usp=dialog"
+                                target="_blank"
+                                class="w-full gradient-primary text-primary-foreground hover:opacity-90 h-11 rounded-md px-8 font-medium flex items-center justify-center">ابدأ
+                                تجربتك المجانية</a>
+                        </div>
+                        <div
+                            class="bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:shadow-lg transition-all">
+                            <div class="text-center mb-8">
+                                <h3 class="text-xl font-bold mb-2">متقدم</h3>
+                                <p class="text-muted-foreground text-sm mb-4">للشركات والفرق الكبيرة</p>
+                                <div class="flex items-baseline justify-center gap-1">
+                                    <span class="text-4xl md:text-5xl font-bold">199</span>
+                                    <span class="text-muted-foreground">د.ل / شهرياً</span>
+                                </div>
+                            </div>
+                            <ul class="space-y-4 mb-8">
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">عدة مستخدمين</span></li>
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">تقارير مخصصة</span></li>
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">API للتكامل</span></li>
+                                <li class="flex items-start gap-3"><span
+                                        class="w-5 h-5 rounded-full gradient-primary flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-xs">✓</span><span
+                                        class="text-muted-foreground">دعم على مدار الساعة</span></li>
+                            </ul>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWD7VP6qe3se1Vpnt7OgrTc_JjKup3BGnnEVb7Zi1l0C6LvA/viewform?usp=dialog"
+                                target="_blank"
+                                class="w-full border border-input bg-background hover:bg-accent h-11 rounded-md px-8 font-medium flex items-center justify-center">ابدأ
+                                تجربتك المجانية</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section id="faq" class="py-20 md:py-32">
+                <div class="container mx-auto px-4">
+                    <div class="text-center max-w-3xl mx-auto mb-16">
+                        <span class="inline-block text-primary font-semibold mb-4">الأسئلة الشائعة</span>
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">أسئلة يتكرر طرحها</h2>
+                    </div>
+                    <div class="max-w-3xl mx-auto">
+                        <div class="space-y-4" data-orientation="vertical">
+                            <div data-state="closed" data-orientation="vertical"
+                                class="bg-card border border-border/50 rounded-xl px-6 data-[state=open]:shadow-lg transition-shadow">
+                                <h3 data-orientation="vertical" data-state="closed" class="flex">
+                                    <button type="button" aria-expanded="false" data-state="closed"
+                                        data-orientation="vertical"
+                                        class="flex flex-1 items-center justify-between transition-all text-right hover:no-underline py-6 text-lg font-semibold">كيف
+                                        يمكنني ربط جدول Google Sheets؟<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="h-4 w-4 shrink-0 transition-transform duration-200">
+                                            <path d="m6 9 6 6 6-6"></path>
+                                        </svg></button>
+                                </h3>
+                                <div data-state="closed" hidden="" role="region" data-orientation="vertical"
+                                    class="overflow-hidden text-sm transition-all"></div>
+                            </div>
+                            <div data-state="closed" data-orientation="vertical"
+                                class="bg-card border border-border/50 rounded-xl px-6 data-[state=open]:shadow-lg transition-shadow">
+                                <h3 data-orientation="vertical" data-state="closed" class="flex">
+                                    <button type="button" aria-expanded="false" data-state="closed"
+                                        data-orientation="vertical"
+                                        class="flex flex-1 items-center justify-between transition-all text-right hover:no-underline py-6 text-lg font-semibold">هل
+                                        هناك فترة تجريبية مجانية؟<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="h-4 w-4 shrink-0 transition-transform duration-200">
+                                            <path d="m6 9 6 6 6-6"></path>
+                                        </svg></button>
+                                </h3>
+                                <div data-state="closed" hidden="" role="region" data-orientation="vertical"
+                                    class="overflow-hidden text-sm transition-all"></div>
+                            </div>
+                            <div data-state="closed" data-orientation="vertical"
+                                class="bg-card border border-border/50 rounded-xl px-6 data-[state=open]:shadow-lg transition-shadow">
+                                <h3 data-orientation="vertical" data-state="closed" class="flex">
+                                    <button type="button" aria-expanded="false" data-state="closed"
+                                        data-orientation="vertical"
+                                        class="flex flex-1 items-center justify-between transition-all text-right hover:no-underline py-6 text-lg font-semibold">ما
+                                        هي مراحل الطلبات الثلاث؟<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="h-4 w-4 shrink-0 transition-transform duration-200">
+                                            <path d="m6 9 6 6 6-6"></path>
+                                        </svg></button>
+                                </h3>
+                                <div data-state="closed" hidden="" role="region" data-orientation="vertical"
+                                    class="overflow-hidden text-sm transition-all"></div>
+                            </div>
+                            <div data-state="closed" data-orientation="vertical"
+                                class="bg-card border border-border/50 rounded-xl px-6 data-[state=open]:shadow-lg transition-shadow">
+                                <h3 data-orientation="vertical" data-state="closed" class="flex">
+                                    <button type="button" aria-expanded="false" data-state="closed"
+                                        data-orientation="vertical"
+                                        class="flex flex-1 items-center justify-between transition-all text-right hover:no-underline py-6 text-lg font-semibold">هل
+                                        بياناتي آمنة؟<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="h-4 w-4 shrink-0 transition-transform duration-200">
+                                            <path d="m6 9 6 6 6-6"></path>
+                                        </svg></button>
+                                </h3>
+                                <div data-state="closed" hidden="" role="region" data-orientation="vertical"
+                                    class="overflow-hidden text-sm transition-all"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="py-20 md:py-32 bg-muted/30">
+                <div class="container mx-auto px-4">
+                    <div class="text-center max-w-3xl mx-auto mb-16">
+                        <span class="inline-block text-primary font-semibold mb-4">تواصل معنا</span>
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">نحن هنا لمساعدتك</h2>
+                    </div>
+                    <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                        <div class="bg-card rounded-2xl p-6 md:p-8 border border-border/50">
+                            <h3 class="text-xl font-bold mb-6">أرسل لنا رسالة</h3>
+                            <form class="space-y-6">
+                                <div class="grid sm:grid-cols-2 gap-4">
+                                    <div><label for="name" class="block text-sm font-medium mb-2">الاسم
+                                            الكامل</label><input
+                                            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base"
+                                            id="name" name="name" placeholder="أدخل اسمك" required></div>
+                                    <div><label for="phone" class="block text-sm font-medium mb-2">رقم
+                                            الهاتف</label><input type="tel"
+                                            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base"
+                                            id="phone" name="phone" placeholder="091XXXXXXX" required></div>
+                                </div>
+                                <div><label for="email" class="block text-sm font-medium mb-2">البريد
+                                        الإلكتروني</label><input type="email"
+                                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base"
+                                        id="email" name="email" placeholder="example@email.com" required></div>
+                                <div><label for="message"
+                                        class="block text-sm font-medium mb-2">الرسالة</label><textarea
+                                        class="flex min-h-[120px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
+                                        id="message" name="message" placeholder="اكتب رسالتك هنا..."
+                                        required></textarea></div>
+                                <button
+                                    class="w-full gradient-primary text-primary-foreground hover:opacity-90 h-11 rounded-md px-8 font-medium"
+                                    type="submit">📤 إرسال الرسالة</button>
+                            </form>
+                        </div>
+                        <div class="space-y-6">
+                            <div class="bg-card rounded-2xl p-6 md:p-8 border border-border/50">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-14 h-14 rounded-xl bg-green-500 flex items-center justify-center">💬
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold">تواصل عبر واتساب</h3>
+                                        <p class="text-muted-foreground">رد سريع ومباشر</p>
+                                    </div>
+                                </div>
+                                <a href="https://api.whatsapp.com/send/?phone=218920546132&text&type=phone_number&app_absent=0"
+                                    target="_blank"
+                                    class="w-full bg-green-500 hover:bg-green-600 text-white h-11 rounded-md px-8 font-medium flex items-center justify-center">ابدأ
+                                    محادثة واتساب</a>
+                            </div>
+                            <div class="bg-card rounded-2xl p-6 md:p-8 border border-border/50">
+                                <h3 class="text-xl font-bold mb-6">معلومات التواصل</h3>
+                                <div class="space-y-4">
+                                    <div class="flex items-center gap-4">
+                                        <div
+                                            class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                                            📧</div>
+                                        <div>
+                                            <p class="text-sm text-muted-foreground">البريد الإلكتروني</p>
+                                            <p class="font-medium">info@madi-platform.ly</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div
+                                            class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                                            📞</div>
+                                        <div>
+                                            <p class="text-sm text-muted-foreground">رقم الهاتف</p>
+                                            <p class="font-medium" dir="ltr">+218 91 XXX XXXX</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="bg-foreground text-background py-12 md:py-16">
+                <div class="container mx-auto px-4">
+                    <div class="grid md:grid-cols-3 gap-12 mb-12">
+                        <div>
+                            <div class="flex items-center gap-3 mb-4">
+                                <img src="./images/logo.png" alt="منصة مادي"
+                                    class="w-12 h-12 rounded-lg object-contain">
+                                <div>
+                                    <h3 class="font-bold text-lg">منصة مادي</h3>
+                                    <p class="text-sm text-background/60">لحلول التجارة الإلكترونية</p>
+                                </div>
+                            </div>
+                            <p class="text-background/70 leading-relaxed">نظام ERP متكامل للتجارة الإلكترونية والدفع عند
+                                الاستلام في ليبيا.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-4">روابط سريعة</h4>
+                            <ul class="space-y-3">
+                                <li><a href="#home"
+                                        class="text-background/70 hover:text-background transition-colors">الرئيسية</a>
+                                </li>
+                                <li><a href="#features"
+                                        class="text-background/70 hover:text-background transition-colors">المميزات</a>
+                                </li>
+                                <li><a href="#pricing"
+                                        class="text-background/70 hover:text-background transition-colors">الأسعار</a>
+                                </li>
+                                <li><a href="#contact"
+                                        class="text-background/70 hover:text-background transition-colors">تواصل
+                                        معنا</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-4">تابعنا</h4>
+                            <div class="flex gap-4">
+                                <a href="#"
+                                    class="w-10 h-10 rounded-lg bg-background/10 hover:bg-background/20 flex items-center justify-center transition-colors">📘</a>
+                                <a href="#"
+                                    class="w-10 h-10 rounded-lg bg-background/10 hover:bg-background/20 flex items-center justify-center transition-colors">📷</a>
+                                <a href="#"
+                                    class="w-10 h-10 rounded-lg bg-background/10 hover:bg-background/20 flex items-center justify-center transition-colors">🐦</a>
+                            </div>
+                            <div class="mt-6">
+                                <p class="text-sm text-background/60">تواصل معنا</p>
+                                <p class="text-background/70">info@madi-platform.ly</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-t border-background/10 pt-8 text-center">
+                        <p class="text-background/60 text-sm">© 2025 منصة مادي لحلول التجارة الإلكترونية. جميع الحقوق
+                            محفوظة.</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
