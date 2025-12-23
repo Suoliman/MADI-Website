@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
     initAccordion();
     initSmoothScrolling();
     initAnimations();
-    initContactForm();
     removeLovableBadge();
 });
 
@@ -232,54 +231,7 @@ function initAnimations() {
     });
 }
 
-/**
- * Initialize Contact Form
- */
-function initContactForm() {
-    const form = document.querySelector('form');
-
-    if (form) {
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            const name = this.querySelector('#name').value;
-            const phone = this.querySelector('#phone').value;
-            const email = this.querySelector('#email').value;
-            const message = this.querySelector('#message').value;
-
-            // Validate form
-            if (!name || !phone || !email || !message) {
-                showToast('يرجى ملء جميع الحقول المطلوبة', 'error');
-                return;
-            }
-
-            // Email validation
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(email)) {
-                showToast('يرجى إدخال بريد إلكتروني صحيح', 'error');
-                return;
-            }
-
-            // Show success message
-            showToast('تم إرسال رسالتك بنجاح! سنتواصل معك قريباً', 'success');
-
-            // Reset form
-            this.reset();
-        });
-    }
-
-    // WhatsApp button
-    const whatsappButtons = document.querySelectorAll('button:not([type="submit"])');
-    whatsappButtons.forEach(button => {
-        if (button.textContent.includes('واتساب')) {
-            button.addEventListener('click', function () {
-                const phone = '+218910000000'; // Replace with actual phone number
-                const message = encodeURIComponent('مرحباً، أود الاستفسار عن منصة مادي');
-                window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
-            });
-        }
-    });
-}
+// Contact form removed — related handlers cleaned up.
 
 /**
  * Show Toast Notification
